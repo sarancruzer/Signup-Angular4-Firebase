@@ -1,0 +1,179 @@
+/* .account-box
+{
+    border: 2px solid rgba(153, 153, 153, 0.75);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -o-border-radius: 2px;
+    z-index: 3;
+    font-size: 13px !important;
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.logo
+{
+    width: 138px;
+    height: 30px;
+    text-align: center;
+    margin: 10px 0px 27px 40px;
+    background-position: 0px -4px;
+    position: relative;
+}
+
+.forgotLnk
+{
+    margin-top: 10px;
+    display: block;
+}
+
+.purple-bg
+{
+    background-color: #6E329D;
+    color: #fff;
+}
+.or-box
+{
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    margin-top:20px;
+}
+.or
+{
+    color: #666666;
+    background-color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 40px;
+    left: 90px;
+}
+.account-box .btn:hover
+{
+    color: #fff;
+}
+.btn-facebook
+{
+    background-color: #3F639E;
+    color: #fff;
+    font-weight:bold;
+}
+.btn-google
+{
+    background-color: #454545;
+    color: #fff;
+    font-weight:bold;
+}
+
+.container{
+    margin: 40px 0px 0px 100px;
+}
+ */
+
+
+ 
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+     display: block !important; 
+}
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white;
+    opacity:0.9;
+    
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: linear-gradient(#3b5998, white);}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: linear-gradient(#00aced, white);}
+.omb_login .omb_socialButtons .omb_btn-google {background: linear-gradient(#c32f10, white);}
+
+.omb_login .omb_socialButtons .omb_btn-facebook:hover{background: linear-gradient(#fff, #3b5998);}
+.omb_login .omb_socialButtons .omb_btn-twitter:hover {background: linear-gradient(#fff, #00aced);}
+.omb_login .omb_socialButtons .omb_btn-google:hover {background: linear-gradient(#fff, #c32f10);}
+
+
+.btn.btn-lg.btn-primary.btn-block{
+    padding: 10px 10px !important;
+    margin-top: 30px;    
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 0px;
+}
+
+.input-group-addon {
+    padding: 16px 12px;
+    border-radius: 0px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(199, 199, 199);
+}
+.form-control {
+    padding: 24px 12px;
+    border-radius: 0px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}

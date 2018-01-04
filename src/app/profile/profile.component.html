@@ -1,0 +1,57 @@
+
+<!--
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+-->
+
+<div class="container">
+  <div class="row profile">
+  <div class="col-md-3">
+    <div class="profile-sidebar">
+      
+      <div class="profile-userpic">
+        <pre>{{users | json}}</pre>
+      </div>
+     
+      <div class="profile-usertitle">
+        <div class="profile-usertitle-name" > 
+          {{users?.name}} - {{names}}
+        </div>
+        <div class="profile-usertitle-job">
+          Developer
+        </div>
+      </div>
+      
+      <div class="profile-userbuttons">
+        <button type="button" class="btn btn-success btn-sm">Follow</button>
+        <button type="button" class="btn btn-danger btn-sm">Message</button>
+      </div>
+    
+      <div class="profile-usermenu">
+        <ul class="nav">
+          <li class="active">
+            <i class="glyphicon glyphicon-home"></i>
+            {{users['email']}} 
+          </li>
+          <li>          
+            <i class="glyphicon glyphicon-user"></i>
+            Account Settings
+          </li>
+          <li>
+            <a href="#" target="_blank">
+            <i class="glyphicon glyphicon-ok"></i>
+            Tasks </a>
+          </li>
+          <li>
+            <a href="#">
+            <i class="glyphicon glyphicon-flag"></i>
+            Help </a>
+          </li>
+        </ul>
+      </div>
+            
+    </div>
+  </div>  
+</div>
+</div>
